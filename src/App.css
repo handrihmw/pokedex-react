@@ -1,0 +1,169 @@
+.App {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  min-height: 150vh;
+  background-color: #1C2834;
+}
+
+.navbar {
+  background-color: #ef5350 !important;
+}
+
+.navbar a {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.card-char {
+  background-color: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  color: #1C2834;
+  text-align: center;
+  height:250px;
+  border:none;
+  border-radius: 15px;
+}
+
+.card-header {
+  background-color: #ef5350;
+  color: #fff;
+  border: none;
+}
+
+.card h3, h6 {
+  color: #1C2834;
+  font-weight: 800;
+}
+
+.char {
+  background-color: #1C2834;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+
+.category {
+  margin-bottom: 30px;
+}
+
+.category h3 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.category .btn {
+  background-color: #64829f;
+  border: 1px solid #283745;
+  border-radius: 2em;
+  color: #ffffff;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: opacity .2s ease-in-out;
+  white-space: nowrap;
+}
+
+.btn-type .normal {
+  background-color: #B1B1B1;
+  color: #232424;
+}
+
+.btn-type .fighting {
+  background-color: #B84D08;
+}
+
+.btn-type .flying {
+  background-color: #207BA3;
+}
+
+.btn-type .poison {
+  background-color: #8337C6;
+}
+
+.btn-type .ground {
+  background-color: #8B8429;
+}
+
+.btn-type .rock {
+  background-color: #725D3B;
+}
+
+.btn-type .bug {
+  background-color: #28974E;
+}
+
+.btn-type .ghost {
+  background-color: #843F7B;
+}
+
+.btn-type .steel {
+  background-color: #6C6C6C;
+}
+
+.btn-type .fire {
+  background-color: #AA2626;
+}
+
+.btn-type .water {
+  background-color: #0B5CAD;
+}
+
+.btn-type .grass {
+  background-color: #7D8641;
+}
+
+.btn-type .electric {
+  background-color: #BB9B03;
+}
+
+.btn-type .psychic {
+  background-color: #452490;
+}
+
+.btn-type .ice {
+  background-color: #639DBB;
+}
+
+.btn-type .dragon {
+  background-color: #D77A24;
+}
+
+.btn-type .dark {
+  background-color: #232424;
+}
+
+.btn-type .fairy {
+  background-color: #BB63A1;
+}
+
+.btn-type .unknown {
+  background-color: #9A9A9A;
+  color: #000;
+}
+
+.btn-type .shadow {
+  background-color: #414141;
+}
+
+.btn-type .browse {
+  background-color: #1D2934;
+  border: 1px solid #fff;
+}
